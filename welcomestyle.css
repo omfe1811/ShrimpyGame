@@ -1,0 +1,33 @@
+/*Global css*/
+body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100vw;
+  min-height: 100vh;
+  position: relative;
+  width: 1920px;
+  height: 1080px;
+  background: #ffb7e5;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+/*Welcome page css*/
+.welcome-text-container-top {
+  color: rgb(0, 0, 0);
+}
+/*Welcome page div for text top*/
+.welcome-title-div {
+  color: rgb(0, 0, 0);
+}
+/*Welcome div for the title of the game*/
+.welcome-title-content {
+  color: rgb(0, 0, 0);
+  font-family: "Ubuntu", sans-serif;
+  font-weight: 300;
+  font-style: normal;
+}
+/*Welcome div for the start a element*/
+.welcome-start {
+  color: rgb(0, 0, 0);
+}

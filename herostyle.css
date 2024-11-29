@@ -1,0 +1,39 @@
+* {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+#playboard {
+  width: auto;
+  height: auto;
+  margin: auto;
+  background-color: beige;
+  position: relative;
+  display: grid; /* Use CSS Grid to structure the map */
+  grid-template-columns: repeat(3, 50px); /* 20 columns of 50px */
+  grid-template-rows: repeat(3, 50px); /* 20 rows of 50px */
+}
+
+.grid-cell {
+  width: 50px;
+  height: 50px;
+  border: 1px solid #ccc; /* Light border for visualization */
+  box-sizing: border-box; /* Include padding and border in the size */
+}
+
+#heroimage {
+  width: 50px;
+  height: 50px;
+  background-color: blue;
+  position: absolute;
+}
+
+#enemyimage {
+  width: 50px;
+  height: 50px;
+  background-color: red;
+  position: absolute;
+}
+
+#fight {
+  visibility:hidden;
+}

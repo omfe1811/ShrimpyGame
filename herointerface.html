@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hero Keypress Test</title>
+    <link rel="stylesheet" a href="herostyle.css">
+</head>
+
+<body>
+    <h1>Hero Movement Test</h1>
+    <p id="hero-info">Press Arrow Keys to Move the Hero!</p>
+    <p id="hero-position">Position: (0, 0)</p>
+
+    <!--playboard-->
+    <div id="playboard">
+
+        <div id="heroimage">
+            <!--a simple presentation of the hero check its css-->
+            <!--instead it a sprite can be added-->
+        </div>
+        
+        <div id="enemyimage">
+
+        </div>
+
+    </div>
+    <div id="fight">
+        <div id="stats">
+          <span class="stat">XP: <strong><span id="xpText">0</span></strong></span>
+          <span class="stat">Health: <strong><span id="healthText">100</span></strong></span>
+          <span class="stat">Gold: <strong><span id="goldText">50</span></strong></span>
+        </div>
+        <div id="controls">
+          <button id="button1">Go to store</button>
+          <button id="button2">Go to cave</button>
+          <button id="button3">Fight dragon</button>
+        </div>
+        <div id="monsterStats">
+          <span class="stat">Monster Name: <strong><span id="monsterName"></span></strong></span>
+          <span class="stat">Health: <strong><span id="monsterHealth"></span></strong></span>
+        </div>
+        <div id="text">
+          Fight
+        </div>
+      </div>
+    <script src="herofunction.js"></script>
+</body>
+
+</html>
